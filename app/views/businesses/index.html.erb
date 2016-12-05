@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-sm-6">
+    <h1>NPS YELP</h1>
+  </div>
+  <div class="col-sm-6 text-right float-sm-left">
+  </div>
+</div>
+<br>
+<% @businesses.each do |b| %>
+  <div class="card card-block">
+    <p class="card-title"><%= b.name %></p>
+  </div>
+<% end %>
